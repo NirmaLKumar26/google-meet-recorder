@@ -348,7 +348,7 @@ Contributions are welcome! Please feel free to:
 
 ## 📞 Support & Feedback
 
-- 📧 **Email**: [support@example.com](mailto:support@example.com)
+- 📧 **Email**: [nirmal@tndev.in](mailto:nirmal@tndev.in)
 - 🐛 **Bug Reports**: Open an issue on GitHub
 - 💬 **Feature Requests**: Discussions tab on GitHub
 - 🌟 **Star** this repo if you find it helpful!
