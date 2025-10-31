@@ -326,11 +326,11 @@ copies of the Software...
 
 ## 👨‍💻 Developed By
 
-**Nirmal**
+**Nirmal Kumar**
 
-- GitHub: [@yourprofile](https://github.com/)
-- Email: [your.email@example.com](mailto:your.email@example.com)
-- Website: [your-website.com](https://your-website.com)
+- GitHub: [@NirmaLKumar26](https://github.com/NirmaLKumar26)
+- Email: [nirmal@tndev.in](mailto:nirmal@tndev.in)
+- Website: [nirmal.tndev.in](https://nirmal.tndev.in)
 
 ---
 
