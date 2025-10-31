@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Google Meet Recorder",
+  "version": "1.0.0",
+  "description": "Record Google Meet meetings with user consent. Requires manual activation.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads",
+    "identity",
+    "storage",
+    "tabCapture"
+  ],
+  "host_permissions": [
+    "https://meet.google.com/*"
+  ],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "action": {
+    "default_popup": "src/popup.html",
+    "default_title": "Google Meet Recorder"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://meet.google.com/*"],
+      "js": ["src/content.js"],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ],
+  "oauth2": {
+    "client_id": "99365106285-mkj8u0lu7h2pbt2bkksg9b0kack34off.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/calendar.readonly"
+    ]
+  },
+  "icons": {
+    "16": "src/images/icon-16.png",
+    "48": "src/images/icon-48.png",
+    "128": "src/images/icon-128.png"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "google-meet-recorder",
+  "version": "1.0.0",
+  "description": "Chrome extension for recording Google Meet meetings with user consent",
+  "author": "nirmal",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NirmaLKumar26/google-meet-recorder"
+  },
+  "keywords": [
+    "chrome-extension",
+    "google-meet",
+    "recording",
+    "webm",
+    "mediarecorder",
+    "screen-capture",
+    "oauth2"
+  ],
+  "scripts": {
+    "package": "node scripts/package.js",
+    "lint": "eslint src/",
+    "test": "echo \"No tests configured\""
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "manifest_version": 3,
+  "minimum_chrome_version": "88"
+}

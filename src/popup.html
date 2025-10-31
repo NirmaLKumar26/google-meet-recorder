@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Google Meet Recorder</title>
+    <link rel="stylesheet" href="popup.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎬 Meet Recorder</h1>
+        </header>
+
+        <div class="recording-controls">
+            <button id="start-recording-btn" class="btn btn-success btn-large">
+                <span class="material-icons">fiber_manual_record</span>
+                <span>START</span>
+            </button>
+            <button id="pause-recording-btn" class="btn btn-warning btn-large hidden">
+                <span class="material-icons">pause_circle</span>
+                <span>PAUSE</span>
+            </button>
+            <button id="stop-recording-btn" class="btn btn-danger btn-large hidden">
+                <span class="material-icons">stop_circle</span>
+                <span>STOP</span>
+            </button>
+            <button id="download-btn" class="btn btn-primary btn-large hidden">
+                <span class="material-icons">download</span>
+                <span>SAVE</span>
+            </button>
+        </div>
+
+        <div id="recording-status" class="recording-status hidden">
+            <div class="red-dot"></div>
+            <span>Recording...</span>
+        </div>
+
+        <div id="error-message" class="error-message hidden"></div>
+    </div>
+
+    <footer class="footer">
+        <p>Developed by Nirmal</p>
+    </footer>
+
+    <script src="popup.js"></script>
+</body>
+</html>
