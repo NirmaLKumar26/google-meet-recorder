@@ -30,7 +30,7 @@
     }
   ],
   "oauth2": {
-    "client_id": "",
+    "client_id": "exmple",
     "scopes": [
       "https://www.googleapis.com/auth/calendar.readonly"
     ]
